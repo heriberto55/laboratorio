@@ -115,7 +115,7 @@ body {
     background-color: #fefefe;
     margin: auto;
     padding: 0;
-    border: 1px solid #651D32;
+    border: 1px solid #334d7a;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
@@ -161,7 +161,7 @@ body {
   
   .modal-header {
     padding: 2px 16px;
-    background-color: #651D32;
+    background-color: #334d7a;
     color: white;
   }
   
@@ -169,7 +169,7 @@ body {
   
   .modal-footer {
     padding: 2px 16px;
-    background-color: #c79656;
+    background-color: #7b9137;
     color: white;
   }
 
