@@ -115,7 +115,7 @@ body {
     background-color: #fefefe;
     margin: auto;
     padding: 0;
-    border: 1px solid #334d7a;
+    border: 1px solid #651d32;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
@@ -161,7 +161,7 @@ body {
   
   .modal-header {
     padding: 2px 16px;
-    background-color: #334d7a;
+    background-color: #651d32;
     color: white;
   }
   
@@ -169,7 +169,7 @@ body {
   
   .modal-footer {
     padding: 2px 16px;
-    background-color: #7b9137;
+    background-color: #334d7a;
     color: white;
   }
 
@@ -273,7 +273,7 @@ nav{
     padding: 25px 25px 0 0;
     width: 100%;
      height: 70px;
-     background-color: var(--token-cc83342a-1568-43db-8ac9-202374866561, #334d7a);
+     background-color: var(--token-cc83342a-1568-43db-8ac9-202374866561, #651d32);
      overflow: visible;
 }
 
@@ -304,7 +304,7 @@ header .textos-header{
     
         width: 100%;
         height: 33px;
-        background-color: var(--token-772d0cd9-b632-443a-8d96-c2312b86b16f, #7b9137);
+        background-color: var(--token-772d0cd9-b632-443a-8d96-c2312b86b16f, #334d7a);
         color:#fff;
         overflow: visible;
         position: relative; display: flex;
@@ -338,7 +338,7 @@ header .textos-header{
 .amarillo-foot{
     width: 100%;
     height: 25px;
-    background-color: var(--token-772d0cd9-b632-443a-8d96-c2312b86b16f, #7b9137);
+    background-color: var(--token-772d0cd9-b632-443a-8d96-c2312b86b16f, #334d7a);
     overflow: visible;
     position: relative; display: flex;
     text-align: left;
@@ -351,7 +351,7 @@ header .textos-header{
     width: 100%;
     min-height: 70px;
     height: auto;
-     background-color: var(--token-cc83342a-1568-43db-8ac9-202374866561, #334d7a);
+     background-color: var(--token-cc83342a-1568-43db-8ac9-202374866561, #651d32);
      overflow: visible;
      
 
