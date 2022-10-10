@@ -460,6 +460,12 @@ main .sobre-nosotros{
     height: 30%;
 
 }
+.imginteractiva{
+    width: 100%;
+    height: 30%;
+
+
+}
 .imagen-port{
     width: 14%;
     color:white;
@@ -569,6 +575,7 @@ main .sobre-nosotros{
     display:flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .servicio-ind{
