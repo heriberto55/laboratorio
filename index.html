@@ -851,6 +851,79 @@
     <br>
     <br>
 
+
+    <div id="fullpage">  
+    
+        <div class="section">
+      
+                <div class="time-circle">
+                        <div class="sun"></div>
+                        <div class="moon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="stars">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="water"></div>
+                    </div>
+                    <br>
+                    <div id="switch">
+                        <div id="circle"></div>
+                      </div>
+                <div id="intro-text">
+                    <h1 href="#">Día / Noche</h1>
+                    <br>
+                    <h4>La energía solar es la energía madre de la Tierra. </h4>
+                    <br>
+                    <br>
+                    <h4>Luna, mediciones recientes de su endeble atmósfera respaldan la idea de que nuestro satélite está rodeado de un escudo eléctrico</h4>
+                    <h4>y que dicho escudo parece acumular energía cuando la Tierra lo protege de la furia del sol durante la luna llena. </h4>
+                    </div>
+          
+              </div>
+      </div>
+      
+      
+
+
+
+    
+
+
+    <div class="sea">
+        <div class="circle-wrapper">
+            <div class="bubble"></div>
+            <div class="submarine-wrapper">
+                <div class="submarine-body">
+                    <div class="window"></div>
+                    <div class="engine"></div>
+                    <div class="light"></div>
+                </div>
+                <div class="helix"></div>
+                <div class="hat">
+                  <div class="leds-wrapper">
+                      <div class="periscope"></div>
+                      <div class="leds"></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
     <footer class="footer">
         <div class="waves">
           <div class="wave" id="wave1"></div>
@@ -995,6 +1068,19 @@
             modal.style.display = "none";
           }
         }
+
+        $("#switch").click(function () {
+        if ($("#fullpage").hasClass("night")) {
+            $("#fullpage").removeClass("night");
+            $("#switch").removeClass("switched");
+        }
+        else {
+            $("#fullpage").addClass("night");
+            $("#switch").addClass("switched");
+
+        }
+        });
+
         </script>
 </body>
 

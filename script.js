@@ -23,3 +23,19 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 } 
+
+
+
+$("#switch").click(function () {
+  alert("SOY UNA ALERTA");
+  if ($("#fullpage").hasClass("night")) {
+    $("#fullpage").removeClass("night");
+    $("#switch").removeClass("switched");
+  }
+  else {
+    $("#fullpage").addClass("night");
+    $("#switch").addClass("switched");
+
+  }
+});
+
